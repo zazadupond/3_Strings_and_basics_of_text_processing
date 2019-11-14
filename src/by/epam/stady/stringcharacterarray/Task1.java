@@ -16,7 +16,7 @@ public class Task1 {
     public static String[] camelCaseInSnakeCase( String array[]){
 
         for (int i = 0; i < array.length; i++) {
-            array[i] = array[i].replaceAll("([A-Z]+)","\\_$1").toLowerCase(); //"\\_$1" вставляем знак _ перед каждой большой буквой.
+            array[i] = array[i].replaceAll("([A-Z]+)","\\_$1").toLowerCase(); //"\\_$1"  вставляем знак _ перед каждой большой буквой.
         }
 
         return array;
