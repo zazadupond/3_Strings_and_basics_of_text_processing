@@ -22,13 +22,27 @@ public class Task3 {
         searchCountDigitInLine(line);
     }
 
-
     public static int searchCountDigitInLine(String line){
 
-        int count = line.replaceAll("[^0-9]+", "").length(); /* ^ - убираем все строки (без ^ - останутся наоборот только слова без чисел), заменяем убранные строки на
-        без пробела, получается строка с набором цифр без пробелов. Узнаем длину строки*/
+        int count = 0;
+
+        char[] charArray = line.toCharArray();
+
+        for (int i = 0; i < charArray.length; i++){
+            if (Character.isDigit(charArray[i])){
+                count++;
+            }
+        }
+        System.out.println(count);
+        return count;
+    }
+
+    /*public static int searchCountDigitInLine(String line){
+
+        int count = line.replaceAll("[^0-9]+", "").length(); *//* ^ - убираем все строки (без ^ - останутся наоборот только слова без чисел), заменяем убранные строки на
+        без пробела, получается строка с набором цифр без пробелов. Узнаем длину строки*//*
         System.out.println(line.replaceAll("[^0-9]+", "").length());
 
         return count;
-    }
+    }*/
 }
