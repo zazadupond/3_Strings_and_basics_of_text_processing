@@ -10,6 +10,7 @@ public class Task6 {
 
     }
     public static String doubleCharacter (String text){
+
         String textDone = "";
         StringBuilder newText = new StringBuilder(text);
         StringBuilder newtext2 = new StringBuilder(text);
