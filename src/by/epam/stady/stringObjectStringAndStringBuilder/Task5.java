@@ -1,5 +1,6 @@
 package by.epam.stady.stringObjectStringAndStringBuilder;
 
+/* Подсчитать, сколько раз среди символов заданной строки встречается буква "а".*/
 public class Task5 {
 
     public static void main(String[] args) {

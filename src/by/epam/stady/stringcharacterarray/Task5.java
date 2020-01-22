@@ -17,17 +17,23 @@ public class Task5 {
                 "1558 — 1583 г. — Ливонская война. Война Русского царства против Ливонского ордена и последующий конфликт Русского царства с Великим княжеством Литовским, Польшей и Швецией.";
 
 
-        searchCountNumbersInLine(line);
+       // searchCountNumbersInLine(line);
     }
 
 
-    public static int searchCountNumbersInLine(String line) {
+    /*public static int searchCountNumbersInLine(String line) {
 
-        String newString = line.replaceAll("\\s+", " ").trim();/* \\s - пробельный символ, +обозначает «один или
-        несколько экземпляров непосредственно предшествующего элемента, а у нас это пробел, сдвигает сборку*/
+        String newString = line.replaceAll("\\s+", " ").trim();*//* \\s - пробельный символ, +обозначает «один или
+        несколько экземпляров непосредственно предшествующего элемента, а у нас это пробел, сдвигает сборку*//*
 
         System.out.println(newString);
 
         return newString.length();
-    }
+    }*/
+
+  //  public static int searchCountNumbersInLine(String line) {
+
+
+
+   // }
 }
